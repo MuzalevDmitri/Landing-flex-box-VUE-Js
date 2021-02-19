@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 68px;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+}
+
+.logo img{
+    width: 80%;
+    
+}
+
+.wrapper {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+
+}
+
+
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+.menu ul li {
+    padding-left: 10px;
+
+}
+
+
+.menu ul li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+.banner{
+    width: 100%;
+    max-height: 850px;
+    min-height: 450px;
+    position: absolute;
+    padding-left: 100px;
+    background-image: url('https://www.afisha.ru/uploads/6/7b/67bdca78c5a242cb89e6617e5f6372ba.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.banner h1 {
+}
+
+
+.content {
+    margin-top: 100px;
+    position: relative;
+    width: 500px;
+
+}
+
+
+.banner__text {
+    font-size: 25px;
+    margin-top: 20px;
+
+}
